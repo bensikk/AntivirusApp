@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Alert?>
+
+<VBox xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.AntivirusController">
+    <Label fx:id="statusLabel" text="Status: Ready" />
+    <Button fx:id="scanButton" text="Scan" onAction="#handleScan" />
+    <Button fx:id="reportButton" text="Report" onAction="#handleReport" />
+    <Button fx:id="quarantineButton" text="Quarantine" onAction="#handleQuarantine" />
+    <Button fx:id="optionsButton" text="Options" onAction="#handleOptions" />
+</VBox>
